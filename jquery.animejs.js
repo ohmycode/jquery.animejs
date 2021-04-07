@@ -11,14 +11,15 @@
 ;(function (root, factory) {
 
   if (typeof define === 'function' && define.amd) {
-    define(['jquery'], factory);
+    define(['jquery', 'animejs'], factory);
   } else if (typeof exports === 'object') {
-    module.exports = factory(require('jquery'));
+    module.exports = factory(require('jquery'),require('animejs/lib/anime.es.js').default);
   } else {
-    factory(root.jQuery);
+    factory(root.jQuery, root.anime);
   }
 
-}(this, function($) {
+}(this, function($, anime) {
+
   $.fn.animejs = function(params) {
 
     //save reference in case user passes complete() callback
@@ -37,6 +38,7 @@
           ...params
         });
       } catch (error) {
+        console.log('jquery.animejs error:', error);
         next();
       }
     });

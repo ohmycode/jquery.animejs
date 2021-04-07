@@ -1,0 +1,31 @@
+{
+  "name": "jquery.animejs",
+  "version": "1.0.0",
+  "description": "jQuery helper for Anime.js",
+  "main": "jquery.animejs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohmycode/jquery.animejs.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "anime.js",
+    "animation",
+    "chainable",
+    "CSS"
+  ],
+  "dependencies": {
+    "jquery": ">=1.5.0",
+    "animejs": ">=3.0.0"
+  },
+  "author": "ohmycode <contact@ohmyco.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ohmycode/jquery.animejs/issues"
+  },
+  "homepage": "https://github.com/ohmycode/jquery.animejs#readme"
+}
