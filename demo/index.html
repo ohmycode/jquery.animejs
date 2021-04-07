@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery.animejs plugin demo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.js"></script>
+    <script src="jquery.animejs.min.js"></script>
+</head>
+<body style="background: #eee;">
+    <script>
+        jQuery(document).ready(function($) {
+            $('div').animejs({
+                left : '50%',
+                translateX: '-50%',
+                background : '#00ff00',
+                duration: 1000,
+            }).animejs({
+                top : '50%',
+                color : '#fff',
+                background : '#ff0000',
+                duration: 1000,
+            }).animejs({
+                rotate : 360,
+                duration: 1000,
+            })
+        });
+    </script>
+
+
+    <div style="position: absolute; top: 0; left:0; padding: 10px 20px;">Hello world!</div>
+
+</body>
+</html>
