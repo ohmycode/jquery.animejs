@@ -2,7 +2,7 @@
   "name": "jquery.animejs",
   "version": "1.0.0",
   "description": "jQuery helper for Anime.js",
-  "main": "jquery.animejs.js",
+  "main": "dist/jquery.animejs.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
