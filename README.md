@@ -5,7 +5,7 @@ This is a small (< 1kb) helper plugin for the great [Anime.js](https://animejs.c
 
 - Chain Anime.js calls in a more readable way.
 - Supports latest Anime.js versions with all options.
-- Very small Footprint (~400 bytes).
+- Very small Footprint (~600 bytes).
 
 #### Example　
 
